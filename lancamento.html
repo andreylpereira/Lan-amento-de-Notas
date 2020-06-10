@@ -1,110 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lançamento de Notas</title>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LANÇAMENTO DE NOTAS</title>
 </head>
 <body>
-    <strong>
-        <p>
-          <h1>LANÇAMENTO DE NOTAS</h1>
-        </p>
-     <br>
-      <b>
-        <p>
-          <div class="mostre"><b>TURMA A</b></div>
-        </p>
-      </b>
-     <br>
-      </strong>
-      <div class="tabela">
+<h2>
+  <b>
+    LISTA DE TURMAS
+  </b>
+</h2>
+<br>
+<br>
+
+  <div class=test>
+    
+    <button><b>TURMA A</b></button>  <!--Botão para inserir novos nomes?-->
+    <p>
       <table>
-        <tr>
-          <strong>
-            <td>ALUNO</td>
-            <td>PROVA 1</td>
-            <td>PROVA 2</td>
-            <td>PROVA 3</td>
-        </strong>
-        </tr>
-        <tr>
-         <td>Aluno A</td>
-            <td>7,0</td>
-            <td>7,0</td>
-            <td>7,0</td>
-        </tr>
-           <tr>
-          <td>Aluno B</td>
-            <td>8,00</td>
-            <td>8,00</td>
-            <td>8,00</td>
-        </tr>
-        <tr>
-         <td>Aluno C</td>
-            <td>9,00</td>
-            <td>9,00</td>
-            <td>9,00</td>
-        </tr>
-            <tr>
-         <td>Aluno D</td>
+        <thead>
+          <tr>
+            <th>Aluno</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ryu</td>
             <td>10,00</td>
             <td>10,00</td>
             <td>10,00</td>
+          </tr>
+          <tr>
+            <td>Ken</td>
+            <td>9,00</td>
+            <td>9,00</td>
+            <td>9,00</td>
+          </tr>
+          <td>ChunLi</td>
+          <td>7,77</td>
+          <td>7,77</td>
+          <td>7,77</td>
         </tr>
-        </table>
-        </div>  
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-     <b>
-        <p>
-            <div class="mostre"><b>TURMA B</b></div>
-        </p>
-     </b>
-     <br>
-      </strong>
-      <div class="tabela">
+        <tr>
+          <td>Guile</td>
+          <td>8,90</td>
+          <td>7,80</td>
+          <td>8,90</td>
+        </tr>
+        </tbody>
+      </table>
+    </p>  
+  </div> 
+        <br> 
+  <div class=test>
+    
+    <button><b>TURMA B</b></button> <!--Botão para inserir novos nomes?-->
+    <p>
       <table>
-        <tr>
-          <strong>
-            <td>ALUNO</td>
-            <td>PROVA 1</td>
-            <td>PROVA 2</td>
-            <td>PROVA 3</td>
-        </strong>
+        <thead>
+          <tr>
+            <th>Aluno</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bizon</td>
+            <td>8,70</td>
+            <td>7,90</td>
+            <td>9,80</td>
+          </tr>
+          <tr>
+            <td>Zangief</td>
+            <td>5,40</td>
+            <td>6,50</td>
+            <td>7,60</td>
+          </tr>
+          <td>Akuma</td>
+          <td>9,00</td>
+          <td>8,90</td>
+          <td>9,00</td>
         </tr>
         <tr>
-         <td>Aluno A</td>
-            <td>7,0</td>
-            <td>7,0</td>
-            <td>7,0</td>
+          <td>Blanka</td>
+          <td>7,00</td>
+          <td>9,00</td>
+          <td>10,00</td>
         </tr>
-           <tr>
-          <td><b>Aluno B</td>
-            <td>8,00</td>
-            <td>8,00</td>
-            <td>8,00</td>
-        </tr>
-        <tr>
-         <td>Aluno C</td>
-            <td>9,00</td>
-            <td>9,00</td>
-            <td>9,00</td>
-        </tr>
-            <tr>
-         <td>Aluno D</td>
-            <td>10,00</td>
-            <td>10,00</td>
-            <td>10,00</td>
-        </tr>
-        </table>
-        </div> 
+        </tbody>
+      </table>
+    </p>
+  </div> 
+
 </body>
+
+<style>
+
+body {
+  background-color: rgb(197, 195, 195);
+  text-align: center;
+}
+
+p, table {
+  display:none;
+}
+
+div:hover table, p {
+  display:block;
+  background-color: rgb(209, 209, 209);
+}
+
+table {
+color: black;
+position: center;
+width: 14%;
+}
+
+tr th {
+  text-align: center;
+  border: solid black;
+  background-color: rgba(238, 255, 1, 0.712);
+}
+
+tr td {
+  text-align: center;
+  border: solid black;
+  border-width: 1px;
+  font-weight:bold;
+  padding: .7em;
+}
+
+
+
+
+
+
+</style>
+
 </html>
+
+
