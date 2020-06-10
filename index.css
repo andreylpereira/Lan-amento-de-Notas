@@ -1,0 +1,24 @@
+body {
+    background-color: lightcoral;
+    width: 410px;
+}
+
+h1 {
+    color: lightgoldenrodyellow;
+    border-style: solid;
+    border-color: lightgoldenrodyellow; 
+    position: center;
+}
+
+strong {
+    position: center; 
+}
+
+.tabela {
+    display: none;
+  }
+  
+.mostre:hover .tabela {
+    display: block;
+    color: red;
+  }
